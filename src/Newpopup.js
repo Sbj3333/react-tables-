@@ -1,7 +1,7 @@
 import React from 'react';
-import screenshot from './finalpop.png'
+import screenshot from './error.png'
 
-const Popup = ({ onClose }) => {
+const Newpopup = ({ onClose }) => {
   return (
     <div className="popup">
       <div>
@@ -12,4 +12,4 @@ const Popup = ({ onClose }) => {
   );
 };
 
-export default Popup;
+export default Newpopup;

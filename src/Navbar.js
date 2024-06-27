@@ -1,6 +1,7 @@
 import React from 'react'
 import Popup from './Popup'
 import { useState } from 'react';
+import logo from './pes.png'
 
 const Navbar = () => {
   const [showPopup, setShowPopup] = useState(false);
@@ -16,9 +17,10 @@ const Navbar = () => {
     <div className='navbar'>
         <div className='part1'>
             <p className='student'>Student Log</p>
-            <img src='https://pesu.io/_nuxt/img/pes_logo.a8a3c59.png' className='pes'/>
+            <img src={logo} alt='logo' className='pes' style={{height:'70px', borderRadius:'10px', marginLeft:'35vw', aspectRatio:'2'}}/>
             <button onClick={handleOpenPopup} className='sagar-btn'></button>
             {showPopup && <Popup onClose={handleClosePopup} />}
+            
             {/* <div className='line'></div> */}
         </div>
     </div>

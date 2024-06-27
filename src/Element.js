@@ -23,10 +23,7 @@ function Element() {
     
   ]
 
-  const cellStyle = {
-    color: '#7199d2', // Change the text color of the table cells
-    // Add any other desired styles for the table cells
-  };
+
   const data = [
     { name: 'Skanda S Bharadhwaj', srn: 'PES1UG21CS919', Fingerprint_id: '35465528', address: 'Bangalore', photo: require('./1.jpg') },
     // Add more data objects for additional rows
